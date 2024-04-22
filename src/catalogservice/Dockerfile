@@ -6,7 +6,7 @@ WORKDIR /app
 COPY . .
 
 # 安装依赖
-RUN npm install --registry=https://registry.npm.taobao.org  
+RUN npm install --registry=https://registry.npmmirror.com/
 
 
 FROM gcr.dockerproxy.com/distroless/nodejs
