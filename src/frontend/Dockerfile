@@ -8,7 +8,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # 安装项目依赖
-RUN npm install --production --registry=https://registry.npm.taobao.org  
+RUN npm install --production --registry=https://registry.npmmirror.com/
 
 # 将项目代码复制到工作目录
 COPY . .
