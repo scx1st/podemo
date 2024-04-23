@@ -37,7 +37,7 @@ function App() {
             </Content>
 
             <Footer style={{ textAlign: "center" }}>
-              OpenTelemetry Demo ©2023 Created by @优点知识
+              OpenTelemetry Demo ©2023 Created by @Daocloud
             </Footer>
           </Layout>
         </CartProvider>
